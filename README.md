@@ -7,7 +7,7 @@ The whole pipeline is separated into two parts:
 
 (2) Run DSGD_CNMF_FindOutlier.m to detect anomalies (An example result is in the ‘Disney’ folder, in which you can evaluate directly by calling the function)
 
-# Reference in BibTeX:
+## Reference in BibTeX:
 @inproceedings{liu2017accelerated,
   title={Accelerated local anomaly detection via resolving attributed networks},
   author={Liu, Ninghao and Huang, Xiao and Hu, Xia},
