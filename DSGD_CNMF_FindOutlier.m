@@ -1,4 +1,12 @@
 function [comm_ind, anomaly_cell, cor_cell, score_global, rank_anomaly, rank_local] = DSGD_CNMF_FindOutlier()
+% Detecting anomalies from local communities.
+% The variables below are specified by the user:
+%       X: Attribute matrix
+%       W: Factor matrix containing information of node-community association (can be obtained by calling DSGD_CNMF.py)
+%       H: Factor matrix contatning attributal properties of communities (can be obtained by calling DSGD_CNMF.py)
+%       true_anomaly: Indexes of ground-truth anomalies
+%
+% Copyright 2018, Ninghao Liu.
 
 % Load data and factor matrices
 load('disney/X2.mat');              % attribute matrix
