@@ -9,10 +9,9 @@ The whole pipeline is separated into two parts:
 
 ## Reference in BibTeX:
 @inproceedings{liu2017accelerated,
-  title={Accelerated local anomaly detection via resolving attributed networks},
-  author={Liu, Ninghao and Huang, Xiao and Hu, Xia},
-  booktitle={Proceedings of the 26th International Joint Conference on Artificial Intelligence},
-  pages={2337--2343},
-  year={2017},
-  organization={AAAI Press}
-}
+title={Accelerated local anomaly detection via resolving attributed networks}, 
+author={Liu, Ninghao and Huang, Xiao and Hu, Xia}, 
+booktitle={Proceedings of the 26th International Joint Conference on Artificial Intelligence}, 
+pages={2337--2343}, 
+year={2017}, 
+organization={AAAI Press}}
