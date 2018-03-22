@@ -1,3 +1,6 @@
+# Block Distributed SGD Algorithm
+# Copyright 2018, Ninghao Liu
+
 import numpy as np
 from scipy import sparse as sp
 from scipy import io as sio
@@ -287,10 +290,10 @@ class DSGD_CNMF(object):
 
 if __name__ == "__main__":
     # disney
-    fn_prefix = r"disney/"
+    fn_prefix = r"disney/"      # example data folder
     fn_a = fn_prefix + r"edges.csv"
     fn_x = fn_prefix + r"X2.mat"
-    sp_flag = 0
+    sp_flag = 0     # whether the attribute matrix is sparse
     R = 8
     B = 8
     alpha = 0.8
