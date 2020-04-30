@@ -6,7 +6,7 @@ The whole pipeline is separated into two parts:
 (2) Run DSGD_CNMF_FindOutlier.m in MATLAB to detect anomalies  
 (An example factorization result is in the ‘disney’ folder, in which you can evaluate directly by calling DSGD_CNMF_FindOutlier. )
 
-The codes have been tested on Ubuntu.
+The codes have been tested on Ubuntu14. Running on Windows OS is not recommended due to the instability of the multiprocessing module.
 
 ## Reference in BibTeX:
 @inproceedings{liu2017accelerated,  
